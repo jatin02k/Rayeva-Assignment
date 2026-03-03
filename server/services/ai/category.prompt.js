@@ -1,7 +1,5 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-
 const CATEGORIES = ['Kitchen & Dining', 'Personal Care', 'Home & Living',
   'Food & Beverages', 'Fashion & Accessories', 'Office & Stationery',
   'Garden & Outdoors', 'Baby & Kids', 'Health & Wellness'];
@@ -13,7 +11,8 @@ const SUSTAINABILITY_FILTERS = [
 ];
 
 export async function generateCategoryAI(productName,productDescription) {
-    const model = genAI.getGenerativeModel({model: 'gemini-pro'});
+  const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+    const model = genAI.getGenerativeModel({model: 'gemini-2.5-flash'});
     const prompt = `
 You are a product categorization AI for a sustainable e-commerce platform.
 
