@@ -1,4 +1,4 @@
-# Rayeva AI Systems Assignment
+# Rayeva World pvt ltd Assignment
 
 > Full Stack / AI Intern Assignment — Applied AI for Sustainable Commerce
 
