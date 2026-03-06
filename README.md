@@ -1,6 +1,6 @@
 # Rayeva World pvt ltd Assignment
 
-> Full Stack / AI Intern Assignment — Applied AI for Sustainable Commerce
+> Full Stack / AI Intern Assignment. Applied AI for Sustainable Commerce
 
 ## Live Demo
 - Frontend: `http://localhost:5173`
@@ -148,7 +148,7 @@ GET /health
 Response: { "status": "ok" }
 ```
 
-### Module 1 — Category Tagger
+### Module 1 - Category Tagger
 ```
 POST /api/category
 
@@ -173,7 +173,7 @@ Response:
 }
 ```
 
-### Module 3 — Impact Report
+### Module 3 - Impact Report
 ```
 POST /api/impact
 
@@ -203,7 +203,7 @@ Response:
 
 ---
 
-## Module 2 — B2B Proposal Generator (Architecture)
+## Module 2 - B2B Proposal Generator (Architecture)
 
 ### How it would work
 
@@ -247,11 +247,11 @@ Return structured JSON
 
 ---
 
-## Module 4 — WhatsApp Support Bot (Architecture)
+## Module 4 - WhatsApp Support Bot (Architecture)
 
 ### How it would work
 
-**Service:** Twilio WhatsApp Business API — receives incoming messages as webhooks
+**Service:** Twilio WhatsApp Business API, receives incoming messages as webhooks
 
 **Flow:**
 ```
